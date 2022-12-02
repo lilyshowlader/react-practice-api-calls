@@ -1,4 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+Access Key: tT_l3_UAurBdZFHICGjnDmgWJXrUw4ge_CgFyoRSLk0
+https://api.unsplash.com/search/photos?query=dogs
+Authorization: Client-ID Access Key
 
 # dependencies
 /node_modules

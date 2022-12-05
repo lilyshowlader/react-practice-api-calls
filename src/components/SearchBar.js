@@ -4,7 +4,7 @@ function SearchBar ({onSubmit} ) {
   const handleFormSubmit = (event) => {
     event.preventDefault()
     // console.log('I need to tell the parent about some data')
-    onSubmit('cats')
+    onSubmit(term)
   }
   // to detect user pressing enter key, we are wrapping the input with a form element. by doing this, the browser triggers a submit event 
 
@@ -16,6 +16,7 @@ function SearchBar ({onSubmit} ) {
       <form onSubmit={handleFormSubmit}>
       <input value={term} onChange= {handleChange}/>
       </form>
+      {term}
     </div>
   )
 }

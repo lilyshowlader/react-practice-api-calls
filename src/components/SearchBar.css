@@ -1,0 +1,17 @@
+.search-bar {
+  border: 1px solid pink;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.search-bar form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: pink;
+}
+
+body {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 60px;
+}

@@ -3,6 +3,7 @@ import './SearchBar.css'
 
 function SearchBar ({onSubmit} ) {
   const [term, setTerm] = useState('')
+  
   const handleFormSubmit = (event) => {
     event.preventDefault()
     // console.log('I need to tell the parent about some data')
